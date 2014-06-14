@@ -20,6 +20,7 @@
     "connect-mongo": "~0.4.1",
     "nconf": "~0.6.0",
     "redis": "~0.10.0",
-    "connect-redis": "~2.0.0"
+    "connect-redis": "~2.0.0",
+    "racer-schema": "~0.1.0"
   }
 }
