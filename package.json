@@ -1,0 +1,25 @@
+{
+  "name": "racer-schema-example",
+  "version": "0.1.0",
+  "description": "Sample app that uses racer-schema",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "derby": "0.6.0-alpha8",
+    "express": "~4.2.0",
+    "cookie-parser": "~1.1.0",
+    "express-session": "~1.2.0",
+    "serve-static": "~1.1.0",
+    "racer-browserchannel": "~0.1.1",
+    "livedb-mongo": "~0.3.2",
+    "racer-bundle": "~0.1.1",
+    "compression": "~1.0.2",
+    "connect-mongo": "~0.4.1",
+    "nconf": "~0.6.0",
+    "redis": "~0.10.0",
+    "connect-redis": "~2.0.0"
+  }
+}

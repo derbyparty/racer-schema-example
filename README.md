@@ -1,0 +1,1 @@
+Sample app that uses [racer-schema](https://github.com/derbyparty/racer-schema)

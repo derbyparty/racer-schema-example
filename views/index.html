@@ -1,0 +1,22 @@
+<Body:>
+  <h1>Hello, Validation!</h1>
+  <p><a on-click="clear()">Clear</a></p>
+
+  <p>
+    Name: <input type="text" value="{{_page.product.name}}"/>
+    <span>{{_page.errors.name}}</span>
+  </p>
+  <p>
+    Price: <input type="number" value="{{_page.product.price}}"/>
+    <span>{{_page.errors.price}}</span>
+  </p>
+  <p><a on-click="save()">Save</a></p>
+
+
+  <h4>Products:</h4>
+  {{each _page.products as #product}}
+    <p>
+      <strong>Name: {{#product.name}}</strong> 
+      <span> Price: {{#product.price}}</span>
+    </p>
+  {{/each}}
